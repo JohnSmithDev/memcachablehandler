@@ -1,0 +1,9 @@
+##PREFERRED_DEV_PORT=12350
+application: memcachable-demo
+version: 1-1
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: demo.py
